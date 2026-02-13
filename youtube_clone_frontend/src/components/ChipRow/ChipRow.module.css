@@ -1,0 +1,46 @@
+.wrap {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--bg-canvas);
+  padding: 4px 0 12px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scrollbar-width: none;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}
+
+.chip {
+  height: 32px;
+  padding: 0 12px;
+  border-radius: var(--radius-pill);
+  border: 0;
+  background: var(--bg-chip);
+  color: var(--text-primary);
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.chip:hover {
+  background: #303030;
+}
+
+.chip:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.active {
+  background: var(--bg-chip-active);
+  color: var(--text-on-light);
+}
