@@ -1,0 +1,33 @@
+/* YouTube-like dark theme tokens (from assets/youtube_home_design_notes.md) */
+:root {
+  --bg-canvas: #0f0f10;
+  --bg-elev-1: #181818;
+  --bg-elev-2: #202020;
+  --bg-chip: #272727;
+  --bg-chip-active: #ffffff;
+
+  --text-primary: #f1f1f1;
+  --text-secondary: #aaaaaa;
+  --text-muted: #717171;
+  --text-on-light: #111111;
+
+  --border-subtle: #2a2a2a;
+  --focus-ring: #3ea6ff;
+
+  --icon: #e6e6e6;
+  --icon-muted: #bdbdbd;
+
+  --accent-red: #ff0000;
+
+  --header-h: 56px;
+  --sidebar-w: 240px;
+
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-10: 10px;
+  --radius-pill: 999px;
+
+  --thumb-radius: 12px;
+  --avatar-size: 36px;
+  --icon-btn: 40px;
+}
